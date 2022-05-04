@@ -14,11 +14,7 @@ function MovieCard() {
 
   return (
     <div>
-      <img
-        className="musicmovie-movie-card-image"
-        src={movie.image}
-        alt={movie.title}
-      />
+      <img className="musicmovie-movie-card-image" src={movie.image} alt={movie.title}/>
       <div className="musicmovie-card-bottom-container">
         <h3>{movie.title}</h3>
         <MovieScore />

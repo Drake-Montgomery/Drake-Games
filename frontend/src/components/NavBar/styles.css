@@ -4,6 +4,11 @@ header{
     display: flex;
     align-items: center;
 }
+
+.drake-games-contact-container {
+    display: flex;
+    align-items: center;
+}
 .musicmovie-nav-content {
     display: flex;
     justify-content: space-between;
@@ -14,10 +19,6 @@ header{
     margin: 0;
     font-weight: 700;
     font-size: 25px;
-}
-.musicmovie-contact-container {
-    display: flex;
-    align-items: center;
 }
 .musicmovie-contact-link {
     margin: 0 0 0 10px;

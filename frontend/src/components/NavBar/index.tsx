@@ -6,11 +6,11 @@ function NavBar() {
     <header>
       <nav className="container">
         <div className="musicmovie-nav-content">
-          <h1>MusicMovies</h1>
-          <a href="https://github.com/Lohanedv/MusicMovies">
-            <div className="musicmovie-contact-container">
+          <h1>Drake Games</h1>
+          <a href="https://github.com/Drake-Montgomery/Drake-Games">
+            <div className="drake-games-contact-container">
               <GithubIcon />
-              <p className = "musicmovie-contact-link">/Lohanedv</p>
+              <p className = "musicmovie-contact-link">/Drake Montgomery</p>
             </div>
           </a>
         </div>
