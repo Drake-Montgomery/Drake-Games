@@ -1,21 +1,7 @@
-import {BrowserRouter, Routes,Route} from "react-router-dom"; 
-import Listing from 'Pages/Listagem';
-import Form from 'Pages/Formulario';
-import NavBar from "components/Navbar";
-
-function App () {
+function App() {
   return (
-    <BrowserRouter>
-    <NavBar/>
-    <Routes>
-    <Route path="/" element={<Listing/>} />
-    <Route path="/Form">
-      <Route path=":movieId" element={<Form/>} />
-    </Route>
-    </Routes>
-    
-    </BrowserRouter>
-  )
+    <h1>hello World</h1>
+  );
 }
 
 export default App;
