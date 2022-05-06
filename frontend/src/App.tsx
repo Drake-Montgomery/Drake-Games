@@ -1,16 +1,19 @@
-import Navbar from "components/Navbar/navbar";
-// import Pagination from "components/Pagination/pagination";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Listing from 'Pages/Listing/Listing';
+import Form from 'Pages/Form/Forulario';
+import NavBar from "components/Navbar";
 
 function App() {
   return (
-    <>
-        <Navbar />
-      <main>
-        <section className="container" id="dsmovie-card-list">
-          {/* <Pagination /> */}
-        </section>
-      </main>
-    </>
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Listing />} />
+        <Route path="/Form">
+          <Route path=":ganmeId" element={<Form />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
