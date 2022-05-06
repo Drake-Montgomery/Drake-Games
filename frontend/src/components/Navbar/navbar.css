@@ -1,0 +1,41 @@
+header {
+    background-color: var(--color-primary);
+    color: var(--white);
+    height:60px;
+    display: flex;
+    align-items: center;
+}
+
+.drake-games-nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.drake-games-contact-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.drake-games-contact-container img {
+    margin-right: 10px;
+}
+
+.drake-games-nav-content h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+.drake-games-nav-content p:hover {
+    color:black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.drake-games-contact-link {
+    margin: 0 0 0 10px;
+    font-size: 15px;
+    color: #fff;
+
+}

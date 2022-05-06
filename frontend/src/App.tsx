@@ -1,6 +1,16 @@
+import Navbar from "components/Navbar/navbar";
+// import Pagination from "components/Pagination/pagination";
+
 function App() {
   return (
-    <h1>hello World</h1>
+    <>
+        <Navbar />
+      <main>
+        <section className="container" id="dsmovie-card-list">
+          {/* <Pagination /> */}
+        </section>
+      </main>
+    </>
   );
 }
 
