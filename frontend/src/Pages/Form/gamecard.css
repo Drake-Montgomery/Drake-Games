@@ -1,0 +1,38 @@
+.drakegames-form-container {
+    max-width: 480px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.drakegames-form {
+    width: calc(100% - 20%);
+}
+
+.drakegames-form-group {
+    margin-bottom: 20px;
+}
+
+.drakegames-form-group label {
+    font-size: 12px;
+    color: #aaa;
+} 
+
+.drakegames-form-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* 
+.drakegames-btn, .drakegames-btn:hover {
+    width: 180px;
+    height: 40px;
+    background-color:#4d41c0;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 0;
+} */

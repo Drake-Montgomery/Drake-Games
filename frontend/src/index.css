@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --color-primary: #4070F4;
+  --color-blue: #4070F4;
   --color-white: #fff;
-  --color-purple-text: #4d41c0;
+  --color-primary: #4d41c0;
+  --bg-gray: #ddd;
+  --text-gray: #4a4a4a;
+  --white: #fff;
+  --text-light-gray: #aaa;
+  --star-yellow: #FFBB3A;
 }
+
 * {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+
 html, body {
-  background-color: #E8e8e8;
+  background-color: #e8e8e8;
 }
+
 a, a:hover {
   text-decoration: none;
   color: unset;

@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Listing from 'Pages/Listing/Listing';
-import Form from 'Pages/Form/Forulario';
+import Form from 'Pages/Form/GameCard';
 import NavBar from "components/Navbar";
 
 function App() {
