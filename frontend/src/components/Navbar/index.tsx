@@ -1,4 +1,4 @@
-import { ReactComponent as Githubicon } from "assets/github.svg";
+import { ReactComponent as Githubicon } from "assets/img/github.svg";
 import "./navbar.css";
 
 function Navbar() {
