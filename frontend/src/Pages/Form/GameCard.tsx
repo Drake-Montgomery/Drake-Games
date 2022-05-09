@@ -11,6 +11,8 @@ function GameCard() {
     score: 4.8,
   };
 
+  // Voltar em 01:48:44
+  
   return (
     <div className="drakegames-form-container">
       <img className="drakegames-games-card-image" src={game.image} alt={game.title} />
