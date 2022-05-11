@@ -1,5 +1,5 @@
 // import GameScore from "components/GameScore";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./gamecard.css";
 
 function GameCard() {
@@ -12,8 +12,9 @@ function GameCard() {
   };
 
   // Voltar em 01:48:44
-  
+
   return (
+    <>
     <div className="drakegames-form-container">
       <img className="drakegames-games-card-image" src={game.image} alt={game.title} />
       <div className="drakegames-card-bottom-container">
@@ -37,9 +38,12 @@ function GameCard() {
             <button type="submit" className="btn btn-primary drakegames-btn">Salvar</button>
           </div>
         </form>
-            <button className="btn btn-primary drakegames-btn mt-3">Cancelar</button>
+        <Link to={`/`}>
+          <button className="btn btn-primary drakegames-btn mt-3">Cancelar</button>
+        </Link>
       </div>
     </div>
+    </>
   );
 }
 

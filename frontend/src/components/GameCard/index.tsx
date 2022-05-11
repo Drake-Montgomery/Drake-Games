@@ -1,5 +1,5 @@
 import GameScore from 'components/GameScore';
-import './GameCard.css';
+import { Link } from 'react-router-dom';
 
 function GameCard() {
     const game = {
@@ -11,14 +11,18 @@ function GameCard() {
     };
 
     return (
-        <div>
-            <img className='drakegames-game-card-image' src={game.image} alt={game.title} />
-            <div className="drakegames-card-bottom-container">
-                <h3>{game.title}</h3>
-                <GameScore />
-                <div className="btn btn-primary drakegames-btn">Avaliar</div>
+        <>
+            <div>
+                <img className='drakegames-games-card-image' src={game.image} alt={game.title} />
+                <div className="drakegames-card-bottom-container">
+                    <h3>{game.title}</h3>
+                    <GameScore />
+                    <Link to={`/form`}>
+                        <div className="btn btn-primary drakegames-btn">Avaliar</div>
+                    </Link>
+                </div>
             </div>
-        </div>
+        </>
     );
 }
 

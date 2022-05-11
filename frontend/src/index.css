@@ -2,13 +2,8 @@
 
 :root {
   --color-blue: #4070F4;
-  --color-white: #fff;
-  --color-primary: #4d41c0;
-  --bg-gray: #ddd;
-  --text-gray: #4a4a4a;
-  --white: #fff;
-  --text-light-gray: #aaa;
-  --star-yellow: #FFBB3A;
+  --color-primary: #4D41C0;
+  --bg-gray: #ddd
 }
 
 * {
@@ -17,7 +12,7 @@
 }
 
 html, body {
-  background-color: #e8e8e8;
+  background: var(--bg-gray)
 }
 
 a, a:hover {
