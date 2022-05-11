@@ -38,7 +38,7 @@ function GameCard() {
             <button type="submit" className="btn btn-primary drakegames-btn">Salvar</button>
           </div>
         </form>
-        <Link to={`/`}>
+        <Link to="/">
           <button className="btn btn-primary drakegames-btn mt-3">Cancelar</button>
         </Link>
       </div>

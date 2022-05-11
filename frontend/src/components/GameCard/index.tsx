@@ -17,7 +17,7 @@ function GameCard() {
                 <div className="drakegames-card-bottom-container">
                     <h3>{game.title}</h3>
                     <GameScore />
-                    <Link to={`/form`}>
+                    <Link to={`/form/${game.id}`}>
                         <div className="btn btn-primary drakegames-btn">Avaliar</div>
                     </Link>
                 </div>
